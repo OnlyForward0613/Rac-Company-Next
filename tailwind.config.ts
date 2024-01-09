@@ -226,5 +226,7 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/custom-forms'),
+  ],
 } satisfies Config;

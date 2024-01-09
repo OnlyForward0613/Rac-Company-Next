@@ -46,6 +46,7 @@ import OrderDetails from "./OrderDetails";
 
 const AutoImportOrdersPanel = () => {
   const { orderPackages } = useAutoImportContext();
+  console.log("here: ", orderPackages)
   const { activeAction } = useTabContext();
 
   if (activeAction === "clear package") {

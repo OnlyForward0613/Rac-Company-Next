@@ -70,7 +70,7 @@ export const NAV_TITLES = [
   "Import",
   "Auto Import",
   "Tracking",
-  "Billing",
+  "Payment History",
   "Get a Quote",
   "Help",
   "Settings",

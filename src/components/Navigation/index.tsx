@@ -56,7 +56,7 @@ export const TopNav = () => {
         <NavItem
           navItem={{
             src: <Wallet3 className="text-gray-400" />,
-            title: "Billing",
+            title: "Payment History",
             href: "/billing",
           }}
         />

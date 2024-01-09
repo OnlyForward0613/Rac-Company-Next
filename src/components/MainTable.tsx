@@ -24,7 +24,7 @@ import SearchBar, { type FilterCategoriesType } from "./SearchBar";
 interface ReactTableProps<T extends object> {
   id: string;
   data: T[];
-  columns: ColumnDef<T>[];
+  columns: any;
   filterCategories: FilterCategoriesType[];
 }
 

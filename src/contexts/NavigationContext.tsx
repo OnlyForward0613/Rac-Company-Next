@@ -86,7 +86,7 @@ export const navItems: NavItemType[] = [
   { src: <Home2 className="text-gray-400" />, title: "Home", href: "/" },
   {
     src: <Wallet3 className="text-gray-400" />,
-    title: "Billing",
+    title: "Payment History",
     href: "/billing",
   },
   {
